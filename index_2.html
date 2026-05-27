@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+
+        ul{
+            list-style-type:none;
+        }
+        
+        body{
+            font-family:"맑은 고딕", "돋움";
+            font-size:100%;
+        }
+
+        [class*="c_"]{
+            float:left;
+            padding:10px;
+        }
+
+        [class*="c_"]{
+            width:100%;
+        }
+
+        @media only screen and (max-width: 600px){
+            .c_m_1 {width:8.33%;}
+            .c_m_2 {width:16.66%;}
+            .c_m_3 {width:25%;}
+            .c_m_4 {width:33.33%;}
+            .c_m_5 {width:41.66%;}
+            .c_m_6 {width:50%;}
+            .c_m_7 {width:58.33%;}
+            .c_m_8 {width:66.66%;}
+            .c_m_9 {width:75%;}
+            .c_m_10 {width:83.33%;}
+            .c_m_11 {width:91.66%;}
+            .c_m_12 {width:100%;}
+        }   
+
+        @media only screen and (min-width: 768px){
+            .c_1 {width:8.33%;}
+            .c_2 {width:16.66%;}
+            .c_3 {width:25%;}
+            .c_4 {width:33.33%;}
+            .c_5 {width:41.66%;}
+            .c_6 {width:50%;}
+            .c_7 {width:58.33%;}
+            .c_8 {width:66.66%;}
+            .c_9 {width:75%;}
+            .c_10 {width:83.33%;}
+            .c_11 {width:91.66%;}
+            .c_12 {width:100%;}
+        }
+
+        header{
+            height:80px;
+            padding:20px;
+            background-color: #4c3545;
+        }
+
+        aside#menu{
+            position: relative;
+            width: 170px;
+            color:#ffffff;
+            
+
+        }
+
+        aside#menu li{
+            padding:10px;
+            margin:5px 0 0 0;
+            background-color:#725a7a;
+        }
+
+        section#main{
+            padding:15px;
+        }
+        section#main li{
+            display: flex;
+            vertical-align: top;
+        }
+        
+        section#main ul li{
+            text-align: left;
+        }
+
+
+
+        section#main p{
+            padding:5px;
+            font-size:0.95em;
+            line-height:130%;
+        }
+
+        aside#photos img{
+            width:100%;
+        }
+
+        aside#photos li{
+            margin:5px 0 0 0;
+        }
+
+        footer{
+            height:60px;
+            padding:10px;
+            clear:both;
+            text-align:center;
+            background-color: #eeeeee;
+        }
+
+        div a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            padding: 15px;
+            display:inline-block;
+            
+        }
+
+        ul{
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li{
+            margin: 0;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+        }
+        ul li:hover {
+            background: #555;
+        }
+        ul li:hover ul{display: block;}
+
+        ul li ul{
+
+            position: absolute;
+            width: 170px;
+            display: none;
+            left: 100%;
+            top: 0;
+            background-color: #0f380d;
+        }
+
+        ul li ul li{
+            background: #2b0101;
+            display:block;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+
+        a:hover {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        h1{
+            font-weight: bold;
+            color: rgb(196, 160, 202);
+        }
+        h2{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 15px;
+            margin-left: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        h4{
+            font-size: 20px;
+            font-weight: bold;
+            color: #2b295a;
+
+        }
+        h5{
+            font-size: 12px;
+            margin-left: 10px;
+            vertical-align: middle;
+            color: #606060;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <h1><a href="index.html">MELPLON PLAYLIST</a></h1>
+    </header>
+
+
+    <aside id = "menu" class="c_m_3 c_3">
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_2.html">발라드</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_3.html">힙합</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_4.html">팝송</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_5.html">JPOP</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_6.html">외국 힙합</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <a href="#">계절 별<br>플레이리스트</a>
+
+                        <!-- <ul>
+                            <li>봄</li>
+                            <li>여름</li>
+                            <li>가을</li>
+                            <li>겨울</li>
+                        </ul> -->
+
+                </li>
+            </ul>
+        </div>
+    
+        <div>
+            <ul>
+                <li>
+                <a href="#">상황 별<br> 플레이리스트</a>
+
+                <!-- <ul>
+                    <li><a href="index_2.html">드라이브</a> </li>
+                    <li><a href="index_2.html">새벽</a></li>
+                    <li><a href="index_2.html">비 오는 날</a></li>
+                    <li><a href="index_2.html">여행</a></li>
+                </ul> -->
+
+                </li>
+            </ul>
+        </div>
+
+
+    </aside>
+
+    <section id="main" class="c_m_9 c_6">
+        <h2>발라드</h2>
+            <ul>
+                <li><img src="img/ballad1.jpg" width="150px" height="150px"> 
+                    <div>
+                        <h3>잠들기 전에 듣기 좋은 새벽 감성 발라드 모음</h3> 
+                        <h5>&nbsp;MELPLON | 20곡</h5>
+                    </div>
+                </li>
+                <br>
+
+                <li><img src="img/ballad2.jpg" width="150px" height="150px">
+                    <div>
+                        <h3>괜히 마음이 울적한 날 듣는 이별 발라드 플레이리스트</h3> 
+                        <h5>&nbsp;MELPLON | 20곡</h5>
+                    </div>
+                </li>
+                <br>
+                <li><img src="img/ballad3.jpg" width="150px" height="150px">
+                    <div>
+                        <h3>조용한 밤, 혼자 듣기 좋은 감성 발라드 모음집</h3> 
+                        <h5>&nbsp;MELPLON | 20곡</h5>
+                    </div>
+                </li>
+            </ul>
+    </section>
+
+    <aside id="photos" class="c_m_12 c_3">
+        <h4>추천 가수</h4>
+        <ul>
+            <li><img src="img/song1.jpg"> 양다일</li>     
+        </ul>
+    </aside>
+
+    
+    <footer class="c12">
+        COPYRIGHT(C) MELPLON ALL Rights Reseved.
+    </footer>
+
+
+</body>
+</html>
