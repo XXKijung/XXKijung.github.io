@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+
+        ul{
+            list-style-type:none;
+        }
+        
+        body{
+            font-family:"맑은 고딕", "돋움";
+            font-size:100%;
+        }
+
+        [class*="c_"]{
+            float:left;
+            padding:10px;
+        }
+
+        [class*="c_"]{
+            width:100%;
+        }
+
+        @media only screen and (max-width: 600px){
+            .c_m_1 {width:8.33%;}
+            .c_m_2 {width:16.66%;}
+            .c_m_3 {width:25%;}
+            .c_m_4 {width:33.33%;}
+            .c_m_5 {width:41.66%;}
+            .c_m_6 {width:50%;}
+            .c_m_7 {width:58.33%;}
+            .c_m_8 {width:66.66%;}
+            .c_m_9 {width:75%;}
+            .c_m_10 {width:83.33%;}
+            .c_m_11 {width:91.66%;}
+            .c_m_12 {width:100%;}
+        }   
+
+        @media only screen and (min-width: 768px){
+            .c_1 {width:8.33%;}
+            .c_2 {width:16.66%;}
+            .c_3 {width:25%;}
+            .c_4 {width:33.33%;}
+            .c_5 {width:41.66%;}
+            .c_6 {width:50%;}
+            .c_7 {width:58.33%;}
+            .c_8 {width:66.66%;}
+            .c_9 {width:75%;}
+            .c_10 {width:83.33%;}
+            .c_11 {width:91.66%;}
+            .c_12 {width:100%;}
+        }
+
+        header{
+            height:80px;
+            padding:20px;
+            background-color: #4c3545;
+        }
+
+        aside#menu{
+            width: 170px;
+            color:#ffffff;
+            
+
+        }
+
+        aside#menu li{
+            padding:10px;
+            margin:5px 0 0 0;
+            background-color:#725a7a;
+        }
+
+        section#main{
+            padding:15px;
+        }
+
+        section#main p{
+            padding:5px;
+            font-size:0.95em;
+            line-height:130%;
+        }
+
+        aside#photos img{
+            width:100%;
+        }
+
+        aside#photos li{
+            margin:5px 0 0 0;
+        }
+
+        footer{
+            height:60px;
+            padding:10px;
+            clear:both;
+            text-align:center;
+            background-color: #eeeeee;
+        }
+
+        div a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            padding: 15px;
+            display:inline-block;
+            
+        }
+
+        ul{
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li{
+
+            margin: 0;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+        }
+        ul li:hover {
+            background: #555;
+        }
+        ul li:hover ul{display: block;}
+
+        ul li ul{
+            margin-left: 10px;
+            position: absolute;
+            width: 170px;
+            display: none;
+            left: 100%;
+            top: 0;
+            background-color: #0f380d;
+        }
+
+        ul li ul li{
+            background: #2b0101;
+            display:block;
+        }
+        
+        h1{
+            font-weight: bold;
+            color: rgb(196, 160, 202);
+        }
+        h2{
+            font-size: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+
+        a:hover {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: inherit;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <h1><a href="index.html">MELPLON PLAYLIST</a></h1>
+    </header>
+
+
+    <aside id = "menu" class="c_m_3 c_3">
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_2.html">발라드</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_3.html">힙합</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_4.html">팝송</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_5.html">JPOP</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <ul>
+                    <li><a href="index_6.html">외국 힙합</a></li>
+                </ul>
+            <ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                <a href="#">계절 별<br> 플레이리스트</a>
+
+                <!-- <ul>
+                    <li><a href="index_2.html">봄</a></li>
+                    <li><a href="index_2.html">여름</a></li>
+                    <li><a href="index_2.html">가을</a></li>
+                    <li><a href="index_2.html">겨울</a></li>
+                </ul> -->
+                
+                </li>
+            </ul>
+        </div>
+    
+        <div>
+            <ul>
+                <li>
+                <a href="#">상황 별<br> 플레이리스트</a>
+
+                <!-- <ul>
+                    <li><a href="index_2.html">드라이브</a></li>
+                    <li><a href="index_2.html">새벽</a></li>
+                    <li><a href="index_2.html">비 오는 날</a></li>
+                    <li><a href="index_2.html">여행</a></li>
+                </ul> -->
+
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </aside>
+
+
+
+    <section id="main" class="c_m_9 c_6">
+        <h2>앨범 설명</h2>
+        <p>킁은 씨잼 특유의 자유롭고 실험적인 음악 스타일이 돋보이는 앨범이다. 
+        반복적이고 중독성 있는 비트 위에 즉흥적인 플로우와 독창적인 랩을 더해 기존 힙합과는 다른 분위기를 만들어 냈다. 
+        또한 감정과 에너지를 거칠고 솔직하게 표현하며 씨잼만의 개성을 강하게 드러낸 작품으로 평가받는다.</p> 
+
+        <p>오보에는 양홍원의 내면적인 감정과 현실적인 이야기를 중심으로 한 앨범이다. 감성적인 사운드와 솔직한 가사가 특징이며, 
+        불안·외로움·성장 과정에서 느끼는 감정을 섬세하게 표현한다. 특히 차분하면서도 깊은 분위기를 통해 청자들의 공감을 이끌어 내며,
+        양홍원의 음악적 색깔을 잘 보여 주는 작품이다.</p> 
+        
+        <p>두 앨범은 모두 자신의 감정과 생각을 음악으로 표현했다는 공통점이 있지만, 
+        킁이 강렬한 에너지와 자유로운 분위기를 강조했다면 오보에는 감정선과 서정적인 분위기에 더욱 집중했다는 차이가 있다.</p>
+    </section>
+
+    <aside id="photos" class="c_m_12 c_3">
+        <h4>오늘의 추천 앨범</h4>
+        <ul>
+            <li><img src="img/album1.jpg"></li>
+            <li><img src="img/album2.jpg"></li>            
+        </ul>
+    </aside>
+
+    <footer class="c12">
+        COPYRIGHT(C) MELPLON ALL Rights Reseved.
+    </footer>
+
+
+</body>
+</html>
