@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELPLON PLAYLIST</title>
+
+<style>
+
+    *{
+        margin:0px;
+    }
+
+    body{
+        background-color:#111016;
+        color:#d6d6d6;
+    }
+
+    .top-login{
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+
+    .top-login a{
+        color:#c4a0ca;
+        text-decoration:none;
+        font-size:14px;
+        margin-left:10px;
+    }
+
+    .top-login a:hover{
+        color:#ffffff;
+    }
+
+    h1{
+        padding:18px 0px 0px 23px;
+        text-align:left;
+        font-weight:bold;
+    }
+
+    h1 a{
+        color:#e2c9ff;
+        text-decoration:none;
+    }
+
+    h2{
+        margin-top:15px;
+        background-color:#1b1a22;
+        color:#ffffff;
+    }
+
+    h3{
+        margin-top:20px;
+        margin-bottom:10px;
+        background-color:#1b1a22;
+        color:#c4a0ca;
+        font-size:18px;
+    }
+
+    p{
+        background-color:#1b1a22;
+        color:#cfcfcf;
+    }
+
+    .header{
+        background-color:#15131a;
+    }
+
+    .menu{
+        float:left;
+        width:15%;
+        margin-left:10px;
+        text-align:center;
+    }
+
+    .menu a{
+        background-color:#1f1c25;
+        padding:8px;
+        margin-top:15px;
+        display:block;
+        width:100%;
+        height:35px;
+        color:#e8e8e8;
+        text-decoration:none;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .menu a:hover{
+        background-color:#c4a0ca;
+        color:#111;
+    }
+
+    .main{
+        float:left;
+        width:56%;
+        height: 600px;
+        margin-left:30px;
+        margin-top:7px;
+        padding:0 20px;
+        background-color:#1b1a22;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .album-grid{
+        display:grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap:15px;
+        margin-top:20px;
+    }
+
+    .album{
+        background:#1f1c25;
+        border-radius:10px;
+        overflow:hidden;
+        box-shadow:0 3px 12px rgba(0,0,0,0.5);
+    }
+
+    .album img{
+        width:100%;
+        height:180px;
+        object-fit:cover;
+    }
+
+    .album-info{
+        padding:10px;
+    }
+
+    .album-info h4{
+        color:#fff;
+        font-size:14px;
+        margin-bottom:5px;
+    }
+
+    .album-info p{
+        color:#aaa;
+        font-size:12px;
+    }
+
+    .right{
+        float:left;
+        width:20%;
+        margin-left:15px;
+        margin-top:7px;
+        padding:15px;
+        background-color:#1b1a22;
+        border-radius:10px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    .main-list{
+        margin-top:10px;
+        background:#1b1a22;
+        padding:10px;
+        border-radius:10px;
+    }
+
+    .main-item{
+        display:flex;
+        padding:8px;
+        margin-bottom:10px;
+        background:#1f1c25;
+        border-radius:8px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .main-item img{
+        border-radius:6px;
+        margin-right:10px;
+    }
+
+    .main-item-text span{
+        display:block;
+        color:#fff;
+        font-size:14px;
+        font-weight:bold;
+    }
+
+    @media only screen and (max-width:620px){
+        .menu,.main,.right{
+            width:100%;
+            float:none;
+            margin-left:0;
+            padding:0;
+        }
+
+        .banner-item{
+            display:block;
+            margin:15px auto;
+        }
+
+        .banner{
+            text-align:center;
+        }
+    }
+
+    .footer{
+        background-color:#15131a;
+        text-align:center;
+        padding:10px;
+        margin-top:7px;
+        color:#888888;
+    }
+
+    #icons img{
+        display: inline-block;
+    }
+
+</style>
+</head>
+
+<body>
+
+    <div style="background-color:#15131a;">
+        <h1>
+            <a href="index.html">
+                <img src="img/logo2.png" width="230px">
+            </a>
+        </h1>
+
+        <div class="top-login">
+            <a href="index_5.html">로그인</a>
+            <a href="index_5.html">회원가입</a>
+        </div>
+    </div>
+
+    <div style="overflow:auto">
+
+        <div class="menu">
+            <a href="index_2.html">발라드</a>
+            <a href="index_3.html">힙합</a>
+            <a href="index_4.html">팝송</a>
+            <a href="index_5.html">JPOP</a>
+            <a href="index_6.html">외국힙합</a>
+        </div>
+
+        <div class="main">
+
+            <h2>J-POP 추천 플레이 리스트</h2>
+
+            <div class="album-grid">
+
+                <div class="album">
+                    <img src="img/jpop1.jpg">
+                    <div class="album-info">
+                        <span>잔잔하게 스며드는 일본 감성의 플레이리스트</span>
+                    </div>
+                </div>
+
+                <div class="album">
+                    <img src="img/jpop2.jpg">
+                    <div class="album-info">
+                        <span>밤공기처럼 조용히 흐르는 J-POP 무드</span>
+                    </div>
+                </div>
+
+                <div class="album">
+                    <img src="img/jpop3.jpg">
+                    <div class="album-info">
+                        <span>애니메이션처럼 펼쳐지는 음악의 장면들</span>
+                    </div>
+                </div>
+
+                <div class="album">
+                    <img src="img/jpop4.jpg">
+                    <div class="album-info">
+                        <span>기억 속 장면처럼 흐르는 일본 음악들</span>
+                    </div>
+                </div>
+
+                <div class="album">
+                    <img src="img/jpop5.jpg">
+                    <div class="album-info">
+                        <span>새벽 감성을 채우는 부드러운 J-POP</span>
+                    </div>
+                </div>
+
+                <div class="album">
+                    <img src="img/jpop6.jpg">
+                    <div class="album-info">
+                        <span>도시의 빛과 함께하는 감성</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <h3>실시간 인기 차트<br>
+            <span style="font-size:11px;color:#aaa;">2026.05.25 ~ 2026.05.31</span>
+            </h3>
+
+            <div class="main-list">
+
+                <div class="main-item">
+                    <img src="img/redred.jpg" width="45" height="45">
+                    <div class="main-item-text">
+                        <span>1. REDRED</span>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/ioi.jpg" width="45" height="45">
+                    <div class="main-item-text">
+                        <span>2. 갑자기</span>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/itsme.jpg" width="45" height="45">
+                    <div class="main-item-text">
+                        <span>3. It’s Me</span>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/akmu.jpg" width="45" height="45">
+                    <div class="main-item-text">
+                        <span>4. 소문의 낙원</span>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/yena.jpg" width="45" height="45">
+                    <div class="main-item-text">
+                        <span>5. 캐치 캐치</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <div style="margin-bottom:10px;">
+            MELPLON PLAYLIST | MUSIC CURATION PLATFORM<br>
+            Copyright(C) 2026 MELPLON. All Rights Reserved.
+        </div>
+
+        <div style="margin-bottom:10px;">
+            Email: contact@melplon.com | Tel: 010-0000-0000
+        </div>
+
+        <div id="icons" style="margin-top:10px;">
+            <img src="img/f.png" width="20px" style="margin:0 5px;">
+            <img src="img/n.png" width="20px" style="margin:0 5px;">
+            <img src="img/i.png" width="20px" style="margin:0 5px;">
+        </div>
+
+    </div>
+
+</body>
+</html>

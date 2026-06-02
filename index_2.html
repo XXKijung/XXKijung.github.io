@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELPLON PLAYLIST</title>
+
+<style>
+    *{
+        margin:0px;
+    }
+
+    body{
+        background-color:#111016;
+        color:#d6d6d6;
+    }
+
+    .top-login{
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+
+    .top-login a{
+        color:#c4a0ca;
+        text-decoration:none;
+        font-size:14px;
+        margin-left:10px;
+    }
+
+    .top-login a:hover{
+        color:#ffffff;
+    }
+
+    .menu{
+        float:left;
+        width:15%;
+        margin-left:10px;
+        text-align:center;
+    }
+
+    .menu a{
+        background-color:#1f1c25;
+        padding:8px;
+        margin-top:15px;
+        display:block;
+        width:100%;
+        height:35px;
+        color:#e8e8e8;
+        text-decoration:none;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .menu a:hover{
+        background-color:#c4a0ca;
+        color:#111;
+    }
+
+    .main{
+        float:left;
+        width:56%;
+        margin-left:30px;
+        margin-top:7px;
+        padding:0 20px;
+        background-color:#1b1a22;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .right{
+        float:left;
+        width:20%;
+        margin-left:15px;
+        margin-top:7px;
+        padding:15px;
+        text-align:center;
+        background-color:#1b1a22;
+        border-radius:10px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    .right img{
+        border-radius:10px;
+    }
+
+
+    h1{
+        padding:18px 0px 0px 23px;
+        text-align:left;
+        font-weight:bold;
+    }
+
+    h2{
+        margin-top:15px;
+        background-color:#1b1a22;
+        color:#ffffff;
+    }
+
+    h3{
+        margin-top:20px;
+        margin-bottom:10px;
+        background-color:#17151f;
+        color:#c4a0ca;
+        font-size:18px;
+    }
+
+
+    p{
+        background-color:#1b1a22;
+        color:#cfcfcf;
+    }
+
+    .playlist-item{
+        display:flex;
+        align-items:center;
+        margin:15px 0;
+        background-color:#1f1c25;
+        padding:12px;
+        border-radius:12px;
+        box-shadow:0 5px 14px rgba(0,0,0,0.6);
+    }
+
+    .playlist-item img{
+        margin-right:15px;
+        border-radius:10px;
+    }
+
+    .playlist-text{
+        background-color:#1f1c25;
+    }
+
+    .playlist-text h3{
+        background-color:#1f1c25;
+        font-size:16px;
+        color:#ffffff;
+        margin-bottom:5px;
+    }
+
+    .playlist-text h5{
+        background-color:#1f1c25;
+        font-size:13px;
+        color:#aaaaaa;
+    }
+
+    @media only screen and (max-width:620px){
+        .menu,.main,.right{
+            width:100%;
+            float:none;
+            margin-left:0;
+            padding:0;
+        }
+
+        .banner-item{
+            display:block;
+            margin:15px auto;
+        }
+
+        .banner{
+            text-align:center;
+        }
+    }
+
+    .footer{
+        background-color:#15131a;
+        text-align:center;
+        padding:10px;
+        margin-top:7px;
+        color:#888;
+    }
+
+</style>
+</head>
+
+    <body style="color:#aaaaaa;">
+
+    <div style="background-color:#15131a; position:relative;">
+        <h1>
+            <a href="index.html">
+                <img src="img/logo2.png" width="230px">
+            </a>
+        </h1>
+
+        <div class="top-login">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+    </div>
+
+    <div style="overflow:auto">
+
+        <div class="menu">
+            <a href="index_2.html">발라드</a>
+            <a href="index_3.html">힙합</a>
+            <a href="index_4.html">팝송</a>
+            <a href="index_5.html">JPOP</a>
+            <a href="index_6.html">외국힙합</a>     
+        </div>
+
+        <div class="main">
+
+            <h2>당신을 위한 추천 플레이 리스트</h2>
+
+            <div class="playlist-item">
+                <img src="img/ballad1.jpg" width="120" height="120">
+                <div class="playlist-text">
+                    <h3>잠들기 전에 듣기 좋은 새벽 감성 발라드</h3>
+                    <h5>MELPLON | 20곡</h5>
+                </div>
+            </div>
+
+            <div class="playlist-item">
+                <img src="img/ballad2.jpg" width="120" height="120">
+                <div class="playlist-text">
+                    <h3>울적한 날 듣는 이별 발라드</h3>
+                    <h5>MELPLON | 20곡</h5>
+                </div>
+            </div>
+
+            <div class="playlist-item">
+                <img src="img/ballad3.jpg" width="120" height="120">
+                <div class="playlist-text">
+                    <h3>새벽 밤공기의 플레이리스트</h3>
+                    <h5>MELPLON | 20곡</h5>
+                </div>
+            </div>
+
+            <div class="playlist-item">
+                <img src="img/ballad4.jpg" width="120" height="120">
+                <div class="playlist-text">
+                    <h3>풋풋한 청량 감성 발라드</h3>
+                    <h5>MELPLON | 35곡</h5>
+                </div>
+            </div>
+
+            <div class="playlist-item">
+                <img src="img/ballad5.jpg" width="120" height="120">
+                <div class="playlist-text">
+                    <h3>새벽의 공기처럼 스며드는 인디 사운드</h3>
+                    <h5>MELPLON | 15곡</h5>
+                </div>
+            </div>
+
+            <div class="playlist-item">
+                <img src="img/ballad6.jpg" width="120" height="120">
+                <div class="playlist-text">
+                    <h3>새벽 감성으로 물든 잔잔한 선율</h3>
+                    <h5>MELPLON | 18곡</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <h2>오늘의 앨범</h2>
+            <br>
+            <img src="img/ballad6.jpg" width="150">
+            <p style="margin-top:10px;font-weight:bold;color:#ffffff;">
+                아이유 - 밤편지
+            </p>
+
+            <br><br>
+
+            <h2>오늘의 아티스트</h2>
+            <br>
+            <p style="color:#ffffff;">
+                아이유 / 양다일 / 혁오
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <div style="margin-bottom:10px;">
+            MELPLON PLAYLIST | MUSIC CURATION PLATFORM<br>
+            Copyright(C) 2026 MELPLON. All Rights Reserved.
+        </div>
+
+        <div style="margin-bottom:10px;">
+            Email: contact@melplon.com | Tel: 010-0000-0000
+        </div>
+
+        <div id="icons" style="margin-top:10px;">
+            <img src="img/f.png" width="20px" style="margin:0 5px;">
+            <img src="img/n.png" width="20px" style="margin:0 5px;">
+            <img src="img/i.png" width="20px" style="margin:0 5px;">
+        </div>
+
+    </div>
+
+</body>
+</html>

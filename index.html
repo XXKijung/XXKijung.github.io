@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELPLON PLAYLIST</title>
+
+    <style>
+
+    *{
+        margin:0px;
+    }
+
+    body{
+        background-color:#111016;
+        color:#d6d6d6;
+
+
+    }
+
+    .top-login{
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+
+    .top-login a{
+        color:#c4a0ca;
+        text-decoration:none;
+        font-size:14px;
+        margin-left:10px;
+    }
+
+    .top-login a:hover{
+        color:#ffffff;
+    }
+
+    .menu{
+        float:left;
+        width:15%;
+        margin-left:10px;
+        text-align:center;
+    }
+
+    .menu a{
+        background-color:#1f1c25;
+        padding:8px;
+        margin-top:15px;
+        display:block;
+        width:100%;
+        height:35px;
+        color:#e8e8e8;
+        text-decoration:none;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .menu a:hover{
+        background-color:#c4a0ca;
+        color:#111;
+    }
+
+    .main{
+        float:left;
+        width:56%;
+        margin-left:30px;
+        margin-top:7px;
+        padding:0 20px;
+        background-color:#1b1a22;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .right{
+        float:left;
+        width:20%;
+        margin-left:15px;
+        margin-top:7px;
+        padding:15px;
+        text-align:center;
+        background-color:#1b1a22;
+        border-radius:10px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    h1{
+        padding:18px 0px 0px 23px;
+        text-align:left;
+        font-weight:bold;
+    }
+
+    h1 a{
+        color:#e2c9ff;
+        text-decoration:none;
+    }
+
+    h2{
+        margin-top:15px;
+        background-color:#1b1a22;
+        color:#ffffff;
+    }
+
+    h3{
+        margin-top:20px;
+        margin-bottom:10px;
+        background-color:#1b1a22;
+        color:#c4a0ca;
+        font-size:18px;
+    }
+
+    p{
+        background-color:#1b1a22;
+        color:#cfcfcf;
+    }
+
+    .banner{
+        margin-top:20px;
+        background:#1f1c25;
+        padding:15px;
+        border-radius:10px;
+        margin-bottom:10px;
+        box-shadow:0px 3px 25px rgba(0,0,0,0.5);
+        text-align:center;
+    }
+
+    .banner-item{
+        display:inline-block;
+        text-align:center;
+        margin:10px 100px;
+    }
+
+    .banner-item img{
+        width:60px;
+        height:60px;
+        border-radius:8px;
+    }
+
+    .banner-title{
+        display:block;
+        color:#c4a0ca;
+        font-weight:bold;
+        font-size:14px;
+    }
+
+    .banner-sub{
+        display:block;
+        color:#aaaaaa;
+        font-size:12px;
+    }
+
+    .main-list{
+        background-color:#1b1a22;
+        margin-bottom:15px;
+    }
+
+    .main-item{
+        display:flex;
+        align-items:center;
+        margin:10px 0;
+        background-color:#1f1c25;
+        padding:8px;
+        border-radius:6px;
+        box-shadow:0 1px 12px rgba(0,0,0,0.6);
+    }
+
+    .main-item img{
+        margin-right:15px;
+        border-radius:4px;
+    }
+
+    .main-item-text span{
+        display:block;
+        color:#ffffff;
+        font-size:15px;
+        font-weight:bold;
+        background-color:#1f1c25;
+    }
+
+    @media only screen and (max-width:620px){
+        .menu,.main,.right{
+            width:100%;
+            float:none;
+            margin-left:0;
+            padding:0;
+        }
+
+        .banner-item{
+            display:block;
+            margin:15px auto;
+        }
+
+        .banner{
+            text-align:center;
+        }
+    }
+
+    .footer{
+        background-color:#15131a;
+        text-align:center;
+        padding:10px;
+        margin-top:7px;
+        color:#888;
+    }
+
+    #icons img{
+        display: inline-block;
+    }
+
+</style>
+</head>
+
+<body>
+
+    <div style="background-color:#15131a;">
+        <h1>
+            <a href="index.html">
+                <img src="img/logo2.png" width="230px">
+            </a>
+        </h1>
+
+        <div class="top-login">
+
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+
+        </div>
+    </div>
+
+    <div style="overflow:auto">
+
+        <div class="menu">
+            <a href="index_2.html">발라드</a>
+            <a href="index_3.html">힙합</a>
+            <a href="index_4.html">팝송</a>
+            <a href="index_5.html">JPOP</a>
+            <a href="index_6.html">외국힙합</a>       
+        </div>
+
+        <div class="main">
+
+            <h2>오늘, 당신의 플레이 리스트</h2>
+
+            <div class="banner">
+
+                <div class="banner-item">
+                    <img src="img/album2.jpg">
+                    <div class="banner-text">
+                        <span class="banner-title">추천 앨범</span>
+                        <span class="banner-sub">오보에</span>
+                    </div>
+                </div>
+
+                <div class="banner-item">
+                    <img src="img/song1.jpg">
+                    <div class="banner-text">
+                        <span class="banner-title">추천 가수</span>
+                        <span class="banner-sub">양다일</span>
+                    </div>
+                </div>
+
+                <div class="banner-item">
+                    <img src="img/ballad1.jpg">
+                    <div class="banner-text">
+                        <span class="banner-title">추천 곡</span>
+                        <span class="banner-sub">밤편지</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3>실시간 인기 차트 &nbsp; &nbsp;2026.05.25 ~ 2026.05.31</h3>
+
+            <div class="main-list">
+
+                <div class="main-item">
+                    <img src="img/redred.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>1. REDRED</span>
+                        <small>CORTIS (코르티스)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/ioi.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>2. 갑자기</span>
+                        <small>아이오아이 (I.O.I)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/itsme.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>3. It′s Me</span>
+                        <small>ILLIT (아일릿)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/akmu.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>4. 소문의 낙원</span>
+                        <small>AKMU (악뮤)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/akmu.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>5. 기쁨, 슬픔, 아름다운 마음</span>
+                        <small>AKMU (악뮤)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/yena.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>6. 캐치 캐치</span>
+                        <small>YENA (최예나)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/rude.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>7. RUDE!</span>
+                        <small>Hearts2Hearts (하츠투하츠)</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/hanroro.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>8. 사랑하게 될 거야</span>
+                        <small>한로로</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/drowning.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>9. Drowning</span>
+                        <small>WOODZ</small>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <img src="img/hanroro2.jpg" width="50" height="50">
+                    <div class="main-item-text">
+                        <span>10. 0+0</span>
+                        <small>한로로</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="right">
+
+            <h2>추천 앨범</h2>
+            <br>
+
+            <img src="img/album1.jpg" width="150px" style="border-radius: 5px;">
+
+            <p style="margin-top:10px;font-weight:bold;color:#ffffff;"> 씨잼 | 킁 </p>
+            <br>
+
+            <img src="img/album2.jpg" width="150px" style="border-radius: 5px;">
+
+            <p style="margin-top:10px;font-weight:bold;color:#ffffff;"> 양홍원 | 오보에 </p>
+            <br>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div style="margin-bottom:10px;">
+            MELPLON PLAYLIST | MUSIC CURATION PLATFORM<br>
+            Copyright(C) 2026 MELPLON. All Rights Reserved.
+        </div>
+
+        <div style="margin-bottom:10px;">
+            Email: contact@melplon.com | Tel: 010-0000-0000
+        </div>
+
+        <div id="icons" style="margin-top:10px;">
+            <img src="img/f.png" width="20px" style="margin:0 5px;">
+            <img src="img/n.png" width="20px" style="margin:0 5px;">
+            <img src="img/i.png" width="20px" style="margin:0 5px;">
+        </div>
+
+    </div>
+
+</body>
+</html>
